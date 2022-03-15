@@ -1,9 +1,9 @@
 import React from 'react';
-import Quote from './Quote';
+import SingleQuotePage from './SingleQuotePage';
 
 const App = () => {
     return (<>
-        <Quote />
+        <SingleQuotePage />
         <p>or author quotes array</p>
         <p>footer</p>
     </>);
