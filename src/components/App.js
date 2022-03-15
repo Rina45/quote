@@ -1,8 +1,11 @@
 import React from 'react';
+import Quote from './Quote';
 
 const App = () => {
     return (<>
-        <h1>Hello World!</h1>
+        <Quote />
+        <p>or author quotes array</p>
+        <p>footer</p>
     </>);
 };
 
