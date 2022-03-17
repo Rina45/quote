@@ -1,0 +1,17 @@
+q {
+    width: 400px;
+    display: flex;
+    margin: auto
+}
+
+q::before {
+    width: 8px;
+    background: #F7DF94;
+    color: #F7DF94;
+    position: relative;
+    inset-inline-end: 50px;
+}
+
+q::after {
+    content: none;
+}
