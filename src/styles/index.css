@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+*, *::after, *::before {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+/* :global from all the app */

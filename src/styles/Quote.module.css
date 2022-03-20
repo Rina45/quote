@@ -1,19 +1,26 @@
-q {
-    width: 400px;
+.quoteBlock {
     display: flex;
-    margin: auto
+    width: 60%;
+    margin: 0 auto;
 }
 
-q::before {
+q {
+    color: #000000;
+    font-style: normal;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 120%;
+    width: 90%;
+}
+
+.quoteLine {
     width: 10px;
+    height: inherit;
     background: #F7DF94;
     color: #F7DF94;
-    position: relative;
-    inset-inline-end: 30px;
+    margin-inline-end: auto;
 }
 
 q::after {
     content: none;
 }
-
-/* :global from all the app */
