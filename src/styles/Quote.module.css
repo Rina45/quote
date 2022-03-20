@@ -5,13 +5,15 @@ q {
 }
 
 q::before {
-    width: 8px;
+    width: 10px;
     background: #F7DF94;
     color: #F7DF94;
     position: relative;
-    inset-inline-end: 50px;
+    inset-inline-end: 30px;
 }
 
 q::after {
     content: none;
 }
+
+/* :global from all the app */
