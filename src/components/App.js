@@ -1,11 +1,14 @@
 import React from 'react';
+import Footer from './Footer';
+import QuotesArray from './QuotesArray';
 import SingleQuotePage from './SingleQuotePage';
 
 const App = () => {
     return (<>
+
         <SingleQuotePage />
-        <p>or author quotes array</p>
-        <p>footer</p>
+        <QuotesArray />
+        <Footer />
     </>);
 };
 
