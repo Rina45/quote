@@ -1,8 +1,9 @@
 import React from 'react';
+import loop from '../assets/loop.svg';
 
 const RandomButton = () => {
     return (
-        <button>random</button>
+        <button>random <img src={loop} alt="" /></button>
     );
 }
 
