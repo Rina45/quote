@@ -8,7 +8,7 @@ const App = () => {
     return (<>
         <RandomButton />
         <SingleQuotePage />
-        <QuotesArray />
+        {/* <QuotesArray /> */}
         <Footer />
     </>);
 };
