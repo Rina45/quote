@@ -1,0 +1,21 @@
+.button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 120%;
+    color: #333333;
+    fill: #333333;
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.button:hover {
+    color: #bbbbbb;
+    fill: #bbbbbb;
+}
+
+.loop {
+    font-size: 16px;
+    fill: inherit;
+}

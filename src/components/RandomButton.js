@@ -1,9 +1,10 @@
 import React from 'react';
-import loop from '../assets/loop.svg';
+import LoopIcon from '../assets/loop.svg';
+import style from '../styles/RandomButton.module.css';
 
 const RandomButton = () => {
     return (
-        <button>random <img src={loop} alt="" /></button>
+        <button className={style.button}><p>random</p> <LoopIcon className={style.loop} /></button>
     );
 }
 
