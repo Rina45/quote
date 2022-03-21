@@ -3,3 +3,5 @@ const initialState = {
 };
 
 export default initialState;
+
+// https://quote-garden.herokuapp.com/api/v3/quotes/random
