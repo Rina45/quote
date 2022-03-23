@@ -16,4 +16,9 @@ const App = () => {
 export default App;
 
  // TODO: array
- // TODO: maybe add fetch style
+ // TODO: maybe add fetch loading style
+
+/* display quote or array
+fetch array and add it to state and components
+loading ... 
+*/

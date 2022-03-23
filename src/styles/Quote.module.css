@@ -2,6 +2,7 @@
     display: flex;
     width: 60%;
     margin: 50px auto;
+    flex-wrap: wrap;
 }
 
 q {
