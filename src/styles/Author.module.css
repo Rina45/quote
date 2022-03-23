@@ -1,21 +1,23 @@
 .authorButton {
     display: block;
     height: 150px;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     background: none;
     border: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-inline-start: 20px;
+    padding-inline: 20px;
     --author-color: #4F4F4F;
+    --arrow-color: #ffffff;
 }
 
 .authorButton:hover {
     background: #333333;
     cursor: /*url(add custom pointer),*/ pointer;
     --author-color: #F2F2F2;
+    --arrow-color: #F2F2F2;
 }
 
 .author {
@@ -33,4 +35,10 @@
     line-height: 16px;
     margin: 0;
     text-align: start;
+}
+
+.arrow {
+    fill: var(--arrow-color);
+    width: 36px;
+    height: 36px;
 }
