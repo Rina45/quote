@@ -1,11 +1,9 @@
 import React from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 import style from '../styles/Quote.module.css';
 
 const Quote = () => {
-    const quote = useSelector(state => state.quote);
-    const dispatch = useDispatch();
-    dispatch({ type: 'MAKE_ACTION' });
+    const quote = useSelector(state => state.quoteText);
     return (
         <div className={style.quoteBlock}>
             <div className={style.quoteLine}></div>
