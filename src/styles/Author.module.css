@@ -42,3 +42,7 @@
     width: 36px;
     height: 36px;
 }
+
+html[dir="rtl"] .arrow {
+    transform: scaleX(-1);
+}
