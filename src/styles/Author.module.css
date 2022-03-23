@@ -1,0 +1,36 @@
+.authorButton {
+    display: block;
+    height: 150px;
+    width: 60%;
+    margin: 0 auto;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline-start: 20px;
+    --author-color: #4F4F4F;
+}
+
+.authorButton:hover {
+    background: #333333;
+    cursor: /*url(add custom pointer),*/ pointer;
+    --author-color: #F2F2F2;
+}
+
+.author {
+    color: var(--author-color);
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.category {
+    color: #828282;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 0;
+    text-align: start;
+}

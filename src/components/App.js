@@ -15,6 +15,6 @@ const App = () => {
 
 export default App;
 
- // TODO: author button
+ // TODO: author button -- add arrow
+ //  TODO: api fetch working
  // TODO: array
- // TODO: api fetch working
