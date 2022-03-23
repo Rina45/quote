@@ -2,7 +2,8 @@ const initialState = {
     quoteText: "",
     author: "",
     genre: "",
-    quoteArray: []
+    quoteArray: [],
+    errorMsg: ""
 };
 
 export default initialState;
