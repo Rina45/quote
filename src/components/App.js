@@ -15,5 +15,5 @@ const App = () => {
 
 export default App;
 
- //  TODO: api fetch working
  // TODO: array
+ // TODO: maybe add fetch style
