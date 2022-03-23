@@ -6,8 +6,8 @@ const Quote = ({ quote, loading }) => {
     return (
         <div className={style.quoteBlock}>
             <div className={style.quoteLine}></div>
-            <LoadingSkeleton />
-            {/* {!loading ? <q>{quote}</q> : <LoadingSkeleton />} */}
+            {/* <LoadingSkeleton /> */}
+            {!loading ? <q>{quote}</q> : <LoadingSkeleton />}
         </div>
     );
 };

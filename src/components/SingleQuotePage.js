@@ -8,6 +8,7 @@ import { getRandomQuote } from '../redux/quotesActions';
 const SingleQuotePage = () => {
     const quote = useSelector(state => state.quoteText);
     const errMsg = useSelector(state => state.errorMsg);
+    const loading = useSelector(state => state.loading);
     const dispatch = useDispatch();
     const start = useCallback(() => { dispatch(getRandomQuote()) }, []);
     useEffect(() => {
@@ -15,7 +16,7 @@ const SingleQuotePage = () => {
     }, [start]);
 
     return (<div className={style.fullPage}>
-        {errMsg || <><Quote quote={quote} />
+        {errMsg || <><Quote quote={quote} loading={loading} />
             <Author /></>}
     </div>
     );
