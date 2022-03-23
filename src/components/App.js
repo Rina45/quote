@@ -14,7 +14,7 @@ const App = () => {
 };
 
 export default App;
- // TODO: move random to end line
+
  // TODO: author button
  // TODO: array
  // TODO: api fetch working

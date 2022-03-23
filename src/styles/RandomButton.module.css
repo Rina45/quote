@@ -8,6 +8,8 @@
     border: none;
     display: flex;
     align-items: center;
+    margin-inline-start: auto;
+    margin-block: 30px;
 }
 
 .button:hover {
