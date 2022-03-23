@@ -15,6 +15,7 @@
 .button:hover {
     color: #bbbbbb;
     fill: #bbbbbb;
+    cursor: pointer;
 }
 
 .loop {

@@ -1,14 +1,16 @@
 import React from 'react';
+import { useSelector } from 'react-redux';
 import Footer from './Footer';
-// import QuotesArray from './QuotesArray';
+import QuotesArray from './QuotesArray';
 import RandomButton from './RandomButton';
 import SingleQuotePage from './SingleQuotePage';
 
 const App = () => {
+    const singleDisplay = useSelector(state => state.singleDisplay);
     return (<>
         <RandomButton />
-        <SingleQuotePage />
-        {/* <QuotesArray /> */}
+        {singleDisplay ? <SingleQuotePage />
+            : <QuotesArray />}
         <Footer />
     </>);
 };
@@ -16,9 +18,7 @@ const App = () => {
 export default App;
 
  // TODO: array
- // TODO: maybe add fetch loading style
 
 /* display quote or array
 fetch array and add it to state and components
-loading ... 
 */

@@ -3,6 +3,8 @@ const initialState = {
     author: "",
     genre: "",
     quoteArray: [],
+    loading: false,
+    singleDisplay: true,
     errorMsg: ""
 };
 
