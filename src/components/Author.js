@@ -8,7 +8,7 @@ const Author = () => {
     return (<button className={style.authorButton}>
         <div>
             <h4 className={style.author}>{author}</h4>
-            <h6 className={style.category}>{genre}</h6>
+            <h6 className={style.genre}>{genre}</h6>
         </div>
         <Arrow className={style.arrow} />
     </button>
