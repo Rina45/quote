@@ -8,7 +8,7 @@ import SingleQuotePage from './SingleQuotePage';
 const App = () => {
     const singleDisplay = useSelector(state => state.singleDisplay);
     return (<>
-        <RandomButton />
+        <RandomButton singleDisplay={singleDisplay} />
         {singleDisplay ? <SingleQuotePage />
             : <QuotesArray />}
         <Footer />
