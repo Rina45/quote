@@ -1,5 +1,6 @@
-import React from 'react';
-import { useSelector } from 'react-redux';
+import React, { useCallback, useEffect } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+import { getRandomQuote } from '../redux/quotesActions';
 import Footer from './Footer';
 import QuotesArray from './QuotesArray';
 import RandomButton from './RandomButton';
@@ -7,6 +8,12 @@ import SingleQuotePage from './SingleQuotePage';
 
 const App = () => {
     const singleDisplay = useSelector(state => state.singleDisplay);
+    const dispatch = useDispatch();
+    const start = useCallback(() => { dispatch(getRandomQuote()) }, []);
+    useEffect(() => {
+        start();
+    }, [start]);
+
     return (<>
         <RandomButton singleDisplay={singleDisplay} />
         {singleDisplay ? <SingleQuotePage />
@@ -17,8 +24,4 @@ const App = () => {
 
 export default App;
 
- // TODO: array
-
-/* display quote or array
-fetch array and add it to state and components
-*/
+ // TODO: style array author header
