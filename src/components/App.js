@@ -23,5 +23,3 @@ const App = () => {
 };
 
 export default App;
-
- // TODO: style array author header
